@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39004B552C52EB0C004C9A6B /* PasswordEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39004B542C52EB0C004C9A6B /* PasswordEntryView.swift */; };
+		39004B572C52F609004C9A6B /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39004B562C52F609004C9A6B /* HomeViewTests.swift */; };
+		393E61612C51560E002602D9 /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E61602C51560E002602D9 /* AddNewView.swift */; };
+		3940F1362C52276100123CA8 /* SecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3940F1352C52276100123CA8 /* SecureTextFieldView.swift */; };
 		3999DFA72C5123410062252B /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFA62C5123410062252B /* PasswordManagerApp.swift */; };
-		3999DFA92C5123410062252B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFA82C5123410062252B /* ContentView.swift */; };
 		3999DFAB2C5123430062252B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3999DFAA2C5123430062252B /* Assets.xcassets */; };
 		3999DFAE2C5123430062252B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3999DFAD2C5123430062252B /* Preview Assets.xcassets */; };
 		3999DFB02C5123430062252B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFAF2C5123430062252B /* Persistence.swift */; };
@@ -16,6 +19,12 @@
 		3999DFBD2C5123430062252B /* PasswordManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFBC2C5123430062252B /* PasswordManagerTests.swift */; };
 		3999DFC72C5123430062252B /* PasswordManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFC62C5123430062252B /* PasswordManagerUITests.swift */; };
 		3999DFC92C5123430062252B /* PasswordManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFC82C5123430062252B /* PasswordManagerUITestsLaunchTests.swift */; };
+		3999DFD62C5127480062252B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFD52C5127480062252B /* HomeView.swift */; };
+		3999DFD82C51277B0062252B /* PasswordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFD72C51277B0062252B /* PasswordListViewModel.swift */; };
+		3999DFDA2C5127E00062252B /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999DFD92C5127E00062252B /* AccountDetailsView.swift */; };
+		39F9CA272C5174AB00D58075 /* CDPasswordEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9CA252C5174AB00D58075 /* CDPasswordEntry+CoreDataClass.swift */; };
+		39F9CA282C5174AB00D58075 /* CDPasswordEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9CA262C5174AB00D58075 /* CDPasswordEntry+CoreDataProperties.swift */; };
+		39F9CA2A2C51774300D58075 /* EncryptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F9CA292C51774300D58075 /* EncryptionHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39004B542C52EB0C004C9A6B /* PasswordEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEntryView.swift; sourceTree = "<group>"; };
+		39004B562C52F609004C9A6B /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
+		393E61602C51560E002602D9 /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		3940F1352C52276100123CA8 /* SecureTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldView.swift; sourceTree = "<group>"; };
 		3999DFA32C5123410062252B /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3999DFA62C5123410062252B /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
-		3999DFA82C5123410062252B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3999DFAA2C5123430062252B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3999DFAD2C5123430062252B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3999DFAF2C5123430062252B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +60,12 @@
 		3999DFC22C5123430062252B /* PasswordManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3999DFC62C5123430062252B /* PasswordManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerUITests.swift; sourceTree = "<group>"; };
 		3999DFC82C5123430062252B /* PasswordManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3999DFD52C5127480062252B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3999DFD72C51277B0062252B /* PasswordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListViewModel.swift; sourceTree = "<group>"; };
+		3999DFD92C5127E00062252B /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		39F9CA252C5174AB00D58075 /* CDPasswordEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPasswordEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		39F9CA262C5174AB00D58075 /* CDPasswordEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDPasswordEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		39F9CA292C51774300D58075 /* EncryptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3940F1372C52507B00123CA8 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3999DFA62C5123410062252B /* PasswordManagerApp.swift */,
+				3999DFAA2C5123430062252B /* Assets.xcassets */,
+				3999DFB12C5123430062252B /* PasswordManager.xcdatamodeld */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		3999DF9A2C5123410062252B = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +126,12 @@
 		3999DFA52C5123410062252B /* PasswordManager */ = {
 			isa = PBXGroup;
 			children = (
-				3999DFA62C5123410062252B /* PasswordManagerApp.swift */,
-				3999DFA82C5123410062252B /* ContentView.swift */,
-				3999DFAA2C5123430062252B /* Assets.xcassets */,
-				3999DFAF2C5123430062252B /* Persistence.swift */,
-				3999DFB12C5123430062252B /* PasswordManager.xcdatamodeld */,
 				3999DFAC2C5123430062252B /* Preview Content */,
+				39F9CA2C2C5196DE00D58075 /* View */,
+				39F9CA2D2C5196EC00D58075 /* ViewModel */,
+				39F9CA2B2C51963600D58075 /* CoreDataSupportFiles */,
+				3940F1372C52507B00123CA8 /* Misc */,
+				39F9CA2E2C51976C00D58075 /* Helper */,
 			);
 			path = PasswordManager;
 			sourceTree = "<group>";
@@ -120,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				3999DFBC2C5123430062252B /* PasswordManagerTests.swift */,
+				39004B562C52F609004C9A6B /* HomeViewTests.swift */,
 			);
 			path = PasswordManagerTests;
 			sourceTree = "<group>";
@@ -131,6 +160,44 @@
 				3999DFC82C5123430062252B /* PasswordManagerUITestsLaunchTests.swift */,
 			);
 			path = PasswordManagerUITests;
+			sourceTree = "<group>";
+		};
+		39F9CA2B2C51963600D58075 /* CoreDataSupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3999DFAF2C5123430062252B /* Persistence.swift */,
+				39F9CA252C5174AB00D58075 /* CDPasswordEntry+CoreDataClass.swift */,
+				39F9CA262C5174AB00D58075 /* CDPasswordEntry+CoreDataProperties.swift */,
+			);
+			path = CoreDataSupportFiles;
+			sourceTree = "<group>";
+		};
+		39F9CA2C2C5196DE00D58075 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3999DFD52C5127480062252B /* HomeView.swift */,
+				39004B542C52EB0C004C9A6B /* PasswordEntryView.swift */,
+				3999DFD92C5127E00062252B /* AccountDetailsView.swift */,
+				393E61602C51560E002602D9 /* AddNewView.swift */,
+				3940F1352C52276100123CA8 /* SecureTextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39F9CA2D2C5196EC00D58075 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3999DFD72C51277B0062252B /* PasswordListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39F9CA2E2C51976C00D58075 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				39F9CA292C51774300D58075 /* EncryptionHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +331,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3999DFB02C5123430062252B /* Persistence.swift in Sources */,
-				3999DFA92C5123410062252B /* ContentView.swift in Sources */,
+				393E61612C51560E002602D9 /* AddNewView.swift in Sources */,
+				39004B552C52EB0C004C9A6B /* PasswordEntryView.swift in Sources */,
 				3999DFB32C5123430062252B /* PasswordManager.xcdatamodeld in Sources */,
+				3999DFD62C5127480062252B /* HomeView.swift in Sources */,
+				39F9CA272C5174AB00D58075 /* CDPasswordEntry+CoreDataClass.swift in Sources */,
+				39F9CA282C5174AB00D58075 /* CDPasswordEntry+CoreDataProperties.swift in Sources */,
+				3940F1362C52276100123CA8 /* SecureTextFieldView.swift in Sources */,
 				3999DFA72C5123410062252B /* PasswordManagerApp.swift in Sources */,
+				3999DFD82C51277B0062252B /* PasswordListViewModel.swift in Sources */,
+				3999DFDA2C5127E00062252B /* AccountDetailsView.swift in Sources */,
+				39F9CA2A2C51774300D58075 /* EncryptionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3999DFBD2C5123430062252B /* PasswordManagerTests.swift in Sources */,
+				39004B572C52F609004C9A6B /* HomeViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
