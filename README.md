@@ -1,4 +1,4 @@
-This App is basically manages Password entered by user by securely storing that is by encrypting and then stores it locally.
+This App basically manages Password entered by user by encrypting and securely stores it locally.
 
 For storage purpose Core data have been utilized.
 
